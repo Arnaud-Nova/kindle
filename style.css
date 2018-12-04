@@ -1,0 +1,55 @@
+body {
+    background: #0dd2c0;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.kindle {
+    width: 700px;
+    height: 870px;
+    background: #1d1d1d;
+    border-radius: 12px;
+    box-shadow: inset 0px 0 0px 15px #111;
+    padding: 2rem;
+    margin: 0 auto;
+    color: rgb(20, 20, 20);
+    overflow: hidden;
+}
+.screen {
+    margin: 0 auto;
+    background: #deddca;
+    height: 760px;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    font-family: monospace;
+}
+.kindle h2 {
+    text-align: center;
+    color: #eee;
+}
+.kindle .header {
+    position: absolute;
+    background: #d1d1c7;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+.screen_content {
+    margin-top: 2rem;
+}
