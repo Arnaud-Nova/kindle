@@ -50,7 +50,52 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
 a {
     color: rgb(20, 20, 20);
     text-decoration: none;
+    display: inline-block;
+    margin: 0 -2px;
+
 }
 .screen_content {
     margin-top: 2rem;
+}
+
+.listpicture {
+    display: none;
+}
+
+title {
+    font-size: 1.3em;
+}
+
+.list {
+    display: inline-block;
+}
+
+form {
+    display: inline-block;
+}
+img {
+    margin: 0 -2px;
+}
+
+.picturelist {
+    display: none;
+}
+
+span,
+cite {
+    font-size: 1em;
+}
+
+span {
+    color: grey;
+}
+
+#toggle {
+    font-size: 1.5em;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
 }

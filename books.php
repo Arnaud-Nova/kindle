@@ -32,3 +32,19 @@ $books = [
         'annee' => '1891'
     ],
 ];
+
+if (isset($_GET['book'])) {
+    include 'livres/' . $_GET['book'] . '.php';
+} else {
+foreach ($books as $book => $datas) : ?>
+
+    <form method="get">
+            <button name="book" value="<?= $book; ?>">
+                <img src="images/<?= $book; ?>.jpg" class="picture">
+                <a class="listpicture"><title class="listpicture"><?= $datas['titre'] . '</title> - <cite class="listpicture">' . $datas['auteur'] . '</cite> <span class="listpicture">' . $datas['annee']; ?></span></a>
+            </button>
+    </form>
+<?php
+endforeach;
+echo '<div id="toggle" class="picturemode">Changer de vue</div>';
+}

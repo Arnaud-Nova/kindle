@@ -19,10 +19,13 @@
                 </div>
                 <div class="screen_content">
                   <!-- Mettre le contenu à afficher dans cette div -->
+                  <?php include 'books.php'; ?>
                 </div>
             </div>
             <h2>Kindle</h2>
+            
         </div>
     </div>
+    <script src="js/app.js"></script>
 </body>
 </html>
